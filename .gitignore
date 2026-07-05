@@ -7,6 +7,7 @@ frontend/.env
 # Dependencies
 node_modules/
 backend/node_modules/
+venv/
 
 # Credentials for future live API phase (Gmail/Calendar/Slack)
 credentials.json
