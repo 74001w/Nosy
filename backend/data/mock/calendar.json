@@ -1,0 +1,26 @@
+[
+  {
+    "id": "c1",
+    "title": "Team standup",
+    "startOffsetMinutes": 45,
+    "endOffsetMinutes": 60,
+    "location": "Zoom",
+    "attendees": ["Rufino", "Bath", "You"]
+  },
+  {
+    "id": "c2",
+    "title": "Client call, project kickoff",
+    "startOffsetMinutes": 1440,
+    "endOffsetMinutes": 1500,
+    "location": "Google Meet",
+    "attendees": ["Client team", "You"]
+  },
+  {
+    "id": "c3",
+    "title": "1:1 with manager",
+    "startOffsetMinutes": 300,
+    "endOffsetMinutes": 330,
+    "location": "Office, Room 4B",
+    "attendees": ["Jordan", "You"]
+  }
+]

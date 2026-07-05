@@ -1,0 +1,27 @@
+[
+  {
+    "id": "s1",
+    "conversationName": "#project-nosy",
+    "type": "channel",
+    "messages": [
+      { "author": "Bath", "text": "pushed the new UI states, ready for review", "offsetMinutes": -50 },
+      { "author": "Rufino", "text": "nice, testing now", "offsetMinutes": -40 }
+    ]
+  },
+  {
+    "id": "s2",
+    "conversationName": "Rufino (DM)",
+    "type": "dm",
+    "messages": [
+      { "author": "Rufino", "text": "can you review my PR when you get a sec?", "offsetMinutes": -20 }
+    ]
+  },
+  {
+    "id": "s3",
+    "conversationName": "#general",
+    "type": "channel",
+    "messages": [
+      { "author": "Bath", "text": "anyone free for lunch later?", "offsetMinutes": -180 }
+    ]
+  }
+]

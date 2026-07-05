@@ -1,0 +1,21 @@
+
+# Environment variables and secrets, never commit these
+.env
+backend/.env
+frontend/.env
+
+# Dependencies
+node_modules/
+backend/node_modules/
+
+# Credentials for future live API phase (Gmail/Calendar/Slack)
+credentials.json
+token.json
+
+# OS / editor junk
+.DS_Store
+*.log
+.vscode/
+
+# Vercel
+.vercel

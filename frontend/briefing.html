@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Nosy - morning briefing</title>
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <main class="screen">
+    <div class="topbar">
+      <h1>Nosy</h1>
+      <div class="topbar-right">
+        <span id="user-name" class="user-name"></span>
+        <button type="button" id="logout-btn" class="link-btn">Log out</button>
+      </div>
+    </div>
+
+    <div class="card center" id="initial-state">
+      <p class="subtitle">Ready when you are.</p>
+      <button type="button" id="generate-btn">Generate morning briefing</button>
+    </div>
+
+    <div class="card center hidden" id="loading-state">
+      <div class="spinner" aria-hidden="true"></div>
+      <p class="loading-message" id="loading-message">Thinking...</p>
+    </div>
+
+    <div class="card hidden" id="results-state">
+      <button type="button" id="refresh-btn" class="secondary small">Generate again</button>
+
+      <div id="error-banners"></div>
+
+      <section class="briefing-section">
+        <p class="section-label urgent-label">Urgent</p>
+        <div id="urgent-list" class="section-list"></div>
+      </section>
+
+      <section class="briefing-section">
+        <p class="section-label upcoming-label">Upcoming events</p>
+        <div id="upcoming-list" class="section-list"></div>
+      </section>
+
+      <section class="briefing-section">
+        <p class="section-label quiet-label">Slack highlights</p>
+        <div id="slack-list" class="section-list"></div>
+      </section>
+
+      <section class="briefing-section">
+        <p class="section-label quiet-label">Other emails</p>
+        <div id="other-list" class="section-list"></div>
+      </section>
+
+      <section class="briefing-section">
+        <p class="section-label quiet-label">Suggested actions</p>
+        <div id="actions-list" class="section-list"></div>
+      </section>
+    </div>
+  </main>
+
+  <script src="js/config.js"></script>
+  <script src="js/briefing.js"></script>
+</body>
+</html>

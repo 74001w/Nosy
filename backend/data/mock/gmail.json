@@ -1,0 +1,42 @@
+[
+  {
+    "id": "g1",
+    "sender": "manager@acme.com",
+    "senderName": "Jordan (Manager)",
+    "subject": "Action required: Q3 budget deadline today",
+    "receivedAt": "OFFSET_MINUTES:-90",
+    "preview": "Hey, need your numbers signed off before end of day, this is urgent, please send ASAP so I can forward to finance."
+  },
+  {
+    "id": "g2",
+    "sender": "sarah@acme.com",
+    "senderName": "Sarah Chen",
+    "subject": "Re: deadline on the client proposal",
+    "receivedAt": "OFFSET_MINUTES:-240",
+    "preview": "Can you take a look at the attached before 2pm? The client wants a final answer today, deadline is tight."
+  },
+  {
+    "id": "g3",
+    "sender": "newsletter@devweekly.com",
+    "senderName": "Dev Weekly",
+    "subject": "This week in software engineering",
+    "receivedAt": "OFFSET_MINUTES:-600",
+    "preview": "Top stories this week: new framework releases, hiring trends, and more."
+  },
+  {
+    "id": "g4",
+    "sender": "billing@vercel.com",
+    "senderName": "Vercel",
+    "subject": "Your invoice is ready",
+    "receivedAt": "OFFSET_MINUTES:-420",
+    "preview": "Your monthly invoice for project hosting is now available in your dashboard."
+  },
+  {
+    "id": "g5",
+    "sender": "no-reply@github.com",
+    "senderName": "GitHub",
+    "subject": "New comment on your pull request",
+    "receivedAt": "OFFSET_MINUTES:-30",
+    "preview": "rufino-dev commented on your pull request: looks good, one small suggestion."
+  }
+]
