@@ -1,3 +1,9 @@
+.venv/
+__pycache__/
+.claude/
+
+
+
 
 # Environment variables and secrets, never commit these
 .env
